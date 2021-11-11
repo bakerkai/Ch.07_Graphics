@@ -10,6 +10,7 @@ We will have a competition to see who can make this flag in the least lines of c
 The record is 16! You will have to use some loops to achieve this.
 '''
 import arcade
+bruh = 130
 SW = 494
 redline = 10 + 40
 arcade.open_window(494, 260, "Art that I tried to make", True)
@@ -19,13 +20,13 @@ arcade.draw_rectangle_filled(99, 190, 198, 140, arcade.color.DARK_BLUE)
 arcade.draw_rectangle_filled(247, 10, SW, 20, arcade.color.RED)
 arcade.draw_rectangle_filled(247, 50, SW, 20, arcade.color.RED)
 arcade.draw_rectangle_filled(247, 90, SW, 20, arcade.color.RED)
-arcade.draw_rectangle_filled(398, 130, 400, 20, arcade.color.RED)
-arcade.draw_rectangle_filled(398, 170, 400, 20, arcade.color.RED)
-arcade.draw_rectangle_filled(398, 210, 400, 20, arcade.color.RED)
-arcade.draw_rectangle_filled(398, 250, 400, 20, arcade.color.RED)
+#arcade.draw_rectangle_filled(398, 130, 400, 20, arcade.color.RED)
+#arcade.draw_rectangle_filled(398, 170, 400, 20, arcade.color.RED)
+#arcade.draw_rectangle_filled(398, 210, 400, 20, arcade.color.RED)
+#arcade.draw_rectangle_filled(398, 250, 400, 20, arcade.color.RED)
 
-for i in range(10):
-    arcade.draw_rectangle_filled(398, 130, 400, 20, arcade.color.RED)
+for x in range(bruh + 40):
+    arcade.draw_rectangle_filled(398, bruh, 400, 20, arcade.color.RED)
 
 arcade.finish_render()
 arcade.run()
