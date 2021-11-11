@@ -20,13 +20,38 @@ arcade.draw_rectangle_filled(99, 190, 198, 140, arcade.color.DARK_BLUE)
 arcade.draw_rectangle_filled(247, 10, SW, 20, arcade.color.RED)
 arcade.draw_rectangle_filled(247, 50, SW, 20, arcade.color.RED)
 arcade.draw_rectangle_filled(247, 90, SW, 20, arcade.color.RED)
-#arcade.draw_rectangle_filled(398, 130, 400, 20, arcade.color.RED)
-#arcade.draw_rectangle_filled(398, 170, 400, 20, arcade.color.RED)
-#arcade.draw_rectangle_filled(398, 210, 400, 20, arcade.color.RED)
-#arcade.draw_rectangle_filled(398, 250, 400, 20, arcade.color.RED)
+arcade.draw_rectangle_filled(398, 130, 400, 20, arcade.color.RED)
+arcade.draw_rectangle_filled(398, 170, 400, 20, arcade.color.RED)
+arcade.draw_rectangle_filled(398, 210, 400, 20, arcade.color.RED)
+arcade.draw_rectangle_filled(398, 250, 400, 20, arcade.color.RED)
+for a in range(120, 250, 25):
+    arcade.draw_text("*", 10, a, arcade.color.WHITE, 20)
+for b in range(130, 237, 27):
+    arcade.draw_text("*", 31, b, arcade.color.WHITE, 20)
+for c in range(120, 250, 25):
+    arcade.draw_text("*", 52, c, arcade.color.WHITE, 20)
+for d in range(130, 237, 27):
+    arcade.draw_text("*", 73, d, arcade.color.WHITE, 20)
+for e in range(120, 250, 25):
+    arcade.draw_text("*", 94, e, arcade.color.WHITE, 20)
+for f in range(130, 237, 27):
+    arcade.draw_text("*", 115, f, arcade.color.WHITE, 20)
+for g in range(120, 250, 25):
+    arcade.draw_text("*", 136, g, arcade.color.WHITE, 20)
+for h in range(130,237, 27):
+    arcade.draw_text("*", 157, h, arcade.color.WHITE, 20)
+for i in range(120, 250, 25):
+    arcade.draw_text("*", 178, i, arcade.color.WHITE, 20)
 
-for bruh in range(0, 240, 20):
-    arcade.draw_rectangle_filled(398, 0 + bruh, 400, 20, arcade.color.RED)
+
+
+
+
+
+
+
+
+
 
 arcade.finish_render()
 arcade.run()
