@@ -15,20 +15,19 @@ IN THE WINDOW TITLE PLEASE PUT YOUR NAME.
 When you are finished Pull Request your file to your instructor.
 '''
 import arcade
-import random
 SW = 600
 SH = 400
 arcade.open_window(SW, SH, "Art that I tried to make", False, False)
 arcade.set_background_color(arcade.color.LIGHT_BLUE)
 arcade.start_render()
+
 #all the beautiful code
 arcade.draw_lrtb_rectangle_filled(200, 400, 300, 200, arcade.color.BLACK)
 arcade.draw_rectangle_filled(300,200,50,50, (255,0,0,50),45)
 arcade.draw_rectangle_filled(300,300,50,50, (255,0,0,50),45)
+arcade.draw_rectangle_filled(arcade.draw_rectangle_filled(247, 90, SW, 20, arcade.color.WHITE)
+)
 
-for i in range(90):
-    #arcade.draw_line(random.randint(100,200), 200, 100, 100, arcade.color.WHITE, 4)
-    arcade.draw_line(20, random.randint(400,500), 100, 200, arcade.color.WHITE_SMOKE, 1)
 
 #arcade.draw_point(300, 300,(0,0,0),5)
 #arcade.draw_line(20,30,100,200,arcade.color.BLUE,3)

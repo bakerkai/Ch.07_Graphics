@@ -25,8 +25,8 @@ arcade.draw_rectangle_filled(247, 90, SW, 20, arcade.color.RED)
 #arcade.draw_rectangle_filled(398, 210, 400, 20, arcade.color.RED)
 #arcade.draw_rectangle_filled(398, 250, 400, 20, arcade.color.RED)
 
-for x in range(bruh + 40):
-    arcade.draw_rectangle_filled(398, bruh, 400, 20, arcade.color.RED)
+for bruh in range(0, 240, 20):
+    arcade.draw_rectangle_filled(398, 0 + bruh, 400, 20, arcade.color.RED)
 
 arcade.finish_render()
 arcade.run()
