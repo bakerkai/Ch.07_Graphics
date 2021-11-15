@@ -25,8 +25,11 @@ arcade.start_render()
 arcade.draw_lrtb_rectangle_filled(200, 400, 300, 200, arcade.color.BLACK)
 arcade.draw_rectangle_filled(300,200,50,50, (255,0,0,50),45)
 arcade.draw_rectangle_filled(300,300,50,50, (255,0,0,50),45)
-arcade.draw_rectangle_filled(arcade.draw_rectangle_filled(247, 90, SW, 20, arcade.color.WHITE)
-)
+#arcade.draw_rectangle_filled(arcade.draw_rectangle_filled(247, 90, SW, 20, arcade.color.WHITE)
+#)
+arcade.draw_rectangle_filled(300,-200,600,500, arcade.color.WHITE)
+
+
 
 
 #arcade.draw_point(300, 300,(0,0,0),5)
