@@ -9,8 +9,9 @@ The picture is 500px wide and 400px tall. Look up ARC in the documentation to do
 import arcade
 
 arcade.open_window(500, 400, "Jedi training", True)
-arcade.set_background_color(arcade.color.WHITE)
+arcade.set_background_color(arcade.color.ALMOND)
 arcade.start_render()
+
 
 
 arcade.finish_render()
