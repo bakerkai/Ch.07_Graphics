@@ -13,31 +13,6 @@ If you have 5 lines that draw a robot, group them together with blank lines abov
 Then add a comment at the top telling the reader what you are drawing.
 IN THE WINDOW TITLE PLEASE PUT YOUR NAME.
 When you are finished Pull Request your file to your instructor.
-
-import arcade
-SW = 600
-SH = 400
-arcade.open_window(SW, SH, "Art that I tried to make", False, False)
-arcade.set_background_color(arcade.color.LIGHT_BLUE)
-arcade.start_render()
-
-#all the beautiful code
-arcade.draw_lrtb_rectangle_filled(200, 400, 300, 200, arcade.color.BLACK)
-arcade.draw_rectangle_filled(300,200,50,50, (255,0,0,50),45)
-arcade.draw_rectangle_filled(300,300,50,50, (255,0,0,50),45)
-arcade.draw_rectangle_filled(100, 60, 1000, 150, arcade.color.WHITE_SMOKE)
-#arcade.draw_triangle_filled(100, 60, 50, 50, arcade.color.GRAY, 45)
-arcade.draw_triangle_filled(250, 500, 400, 30, 100, 30, arcade.color.GRAY)
-
-
-
-
-
-#arcade.draw_point(300, 300,(0,0,0),5)
-#arcade.draw_line(20,30,100,200,arcade.color.BLUE,3)
-
-arcade.finish_render()
-arcade.run()
 '''
 import arcade
 
@@ -90,6 +65,45 @@ arcade.draw_line(500, 550, 450, 500, arcade.color.YELLOW, 3)
 arcade.draw_circle_filled(500, 550, 10, arcade.color.GRAY)
 arcade.draw_circle_filled(500, 550, 5, arcade.color.RED)
 
+#Snow
+for x in range(40,600,20):
+    arcade.draw_text("*", 70, x, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 32, i, arcade.color.WHITE, 10)
+for z in range(40,600,20):
+    arcade.draw_text("*", 5, z, arcade.color.WHITE, 10)
+for l in range(40,600,20):
+    arcade.draw_text("*", 99, l, arcade.color.WHITE, 10)
+for b in range(40,600,20):
+    arcade.draw_text("*", 135, b, arcade.color.WHITE, 10)
+for n in range(40,600,20):
+    arcade.draw_text("*", 170, n, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 205, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 240, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 270, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 305, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 340, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 369, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 400, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 440, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 470, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 505, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 540, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 580, i, arcade.color.WHITE, 10)
+for i in range(40,600,20):
+    arcade.draw_text("*", 605, i, arcade.color.WHITE, 10)
 
 arcade.draw_text("They are amung us.",
 150, 230,

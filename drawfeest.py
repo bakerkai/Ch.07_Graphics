@@ -14,8 +14,8 @@ arcade.draw_circle_filled(400,100,20,arcade.color.GREEN)
 #arcade.draw_text("May the force be with you",100,100,100, arcade.color.ALICE_BLUE, 14, 300, "center","Papyrus", True)
 for x in range(0,SW+1,20):
     arcade.draw_rectangle_filled(x,20,10,30,arcade.color.WHITE)
-arcade.draw_rectangle_filled(300,20,SW,5, arcade.color.WHITE)
-arcade.draw_rectangle_filled(300,10,SW,5, arcade.color.WHITE)
+    arcade.draw_rectangle_filled(300,20,SW,5, arcade.color.WHITE)
+    arcade.draw_rectangle_filled(300,10,SW,5, arcade.color.WHITE)
 
 
 arcade.finish_render()
